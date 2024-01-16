@@ -1,0 +1,19 @@
+:root {
+    --dark-background: #1F2937;
+    --main-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --button: #3882F6;
+    --info-header: #1F2937;
+    --quote-background: #E5E7EB;
+    --quote-text: #1F2937;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
