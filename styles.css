@@ -12,8 +12,54 @@ html {
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    border: solid 1px red;
+}
+
 *,
 *::before,
 *::after {
     box-sizing: inherit;
 }
+
+/* navbar styling */
+
+.flex-container {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    background-color: var(--dark-background);
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+nav img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 10rem;
+
+}
+
+nav a {
+    color: var(--main-text);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    color: #3882F6;
+    text-decoration: underline;
+}
+
+/* random section styling */
