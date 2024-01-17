@@ -24,7 +24,7 @@ html {
     box-sizing: inherit;
 }
 
-/* navbar styling */
+/* navigation bar styling */
 
 .flex-container {
     display: flex;
@@ -62,7 +62,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* random section styling */
+/* awesome section styling */
 
 .awesome-section {
     display: flex;
@@ -106,4 +106,45 @@ nav a:hover {
 
 .awesome-section button:active {
     background-color: magenta;
+}
+
+/* info section styling */
+
+.info-section {
+    height: 500px;
+}
+
+.info-section h2 {
+    text-align: center;
+    margin: 3rem 0rem;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.info-section-flex-container {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 5rem;
+}
+
+.info-section-flex-container li {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-section-flex-container img {
+    width: 200px;
+    height: auto;
+    border: solid 5px var(--button);
+    border-radius: 15px;
+}
+
+.info-section-flex-container p {
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
 }
