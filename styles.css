@@ -15,7 +15,7 @@ html {
 * {
     margin: 0;
     padding: 0;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 *,
@@ -58,8 +58,52 @@ nav a {
 }
 
 nav a:hover {
-    color: #3882F6;
+    color: var(--button);
     text-decoration: underline;
 }
 
 /* random section styling */
+
+.awesome-section {
+    display: flex;
+    height: 500px;
+    background-color: var(--dark-background);
+    color: var(--secondary-text);
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.awesome-section div {
+    margin: 0rem 10rem;
+}
+
+.awesome-section h2 {
+    color: var(--main-text);
+    font-size: 48px;
+    margin-bottom: 5rem;
+}
+
+.awesome-section h2 span {
+    display: block;
+}
+
+.awesome-section button {
+    width: 9rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: var(--button);
+    color: var(--main-text);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.awesome-section button:hover {
+    color: var(--button);
+    background-color: var(--main-text);
+}
+
+.awesome-section button:active {
+    background-color: magenta;
+}
