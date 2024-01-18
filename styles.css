@@ -171,3 +171,42 @@ nav a:hover {
     font-weight: bold;
     text-align: end;
 }
+
+/* action section styling */
+
+.action-section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text);
+}
+
+.action-flex {
+    display: flex;
+    width: 60%;
+    height: 40%;
+    border-radius: 15px;
+    background-color: var(--button);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-flex button {
+    color: var(--main-text);
+    background-color: var(--button);
+    width: 9rem;
+    height: 3rem;
+    border: solid 2px var(--main-text);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.action-flex button:hover {
+    color: var(--button);
+    background-color: var(--main-text);
+}
+
+.action-flex button:active {
+    background-color: magenta;
+}
