@@ -210,3 +210,15 @@ nav a:hover {
 .action-flex button:active {
     background-color: magenta;
 }
+
+/* footer styling */
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: var(--dark-background);
+    color: var(--main-text);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
